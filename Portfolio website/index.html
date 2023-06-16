@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>T-Heckel Portfolio</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Travis">
+		<meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	</head>
+    <!--Body-->
+	<body>
+
+		<!--Navigation Bar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a  href="#About">About</a>
+            <a  href="#GitHub">GitHub</a>
+            <a  href="#Contact">Contact</a>
+        </div>
+
+        <!--End of Navigation bar-->
+        <br>
+        <br>
+
+        <!--Background-->
+        
+        <div id="Home"> <!--This includes a video on loop-->
+            <video autoplay muted loop id="video_1">
+                <source src="video/programmer_hands.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video> 
+        </div>
+
+
+        <!--End of Background-->
+
+        <!--Header Section-->
+        <div class="video_text">
+            <h1 class="white-text">Travis Heckels Portfolio</h1>
+            <strong>
+                <p class="center">
+                <p class="center">
+                    <q>Programming today is a race between software engineers striving to build bigger 
+                        <br>and better idiot-proof programs and the Universe trying to produce bigger and 
+                        <br>better idiots. So far, the Universe is winning. 
+                    </q>
+                    <br><p class="intro">-Rick cook</p>
+                    <br>
+                    <br><p class="intro"> My name is Travis Heckel.</p>
+                    <p class="intro">Welcome to my portfolio website. On it, I will share with you about my background and experience.</p>
+                    <br> <p class="intro">Thank you for stopping by and enjoy!</p>
+                </p>
+            </strong> 
+        </div>
+        <!--End of Header -->
+
+        <!--About Section-->
+        <div class ="Row" id="About">
+            <div class="column_left"> <!--This is left column-->
+                <img class="couple_photo" src="image/couple.png" alt="example pictures">
+            </div>
+            <div class="column_middle"> <!--This is middle column-->
+                <img class="about img_1" src="image/cook.png" alt="example pictures">
+                <img class="about img_2" src="image/spartan.png" alt="example pictures">
+                <img class="about img_3" src="image/gamer.png" alt="example pictures"> 
+            </div>
+            <div class="column_right"><!--This is right column-->
+                <h1>About</h1>
+                <p>
+                    I am a software developer who has found a love in coding! I am happily married to my darling wife
+                    and enjoy spending time with her hanging out with friends, playing video games, cooking, and all kinds of obstacle courses.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s 
+                    Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br>I am a full-stack developer and I would love to work with you on your projects. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+        <!--End of About -->
+
+        <!--Github Section-->
+        <div class="Row" id="GitHub">
+            <div class="Column_1"> <!--This is the left column-->
+                <h1>Github</h1>
+                <p>
+                    You can view my coding projects on my Github profile here:<a href="https://github.com/TravisHeckel" target="_blank">Travis Heckel Github</a>
+                </p>
+            </div>
+            <div class="Column_2"> <!--This is the right column-->
+                <a href="https://github.com/TravisHeckel" target="_blank"><img class="github_image" src="image/GitHub.png" alt="GitHub Logo"></a>        
+            </div>
+        </div>
+        <!--end of Github Section-->
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <div class="Column_2 Column_tall"><!--This is the middle column-->
+                <img class="standard" src="image/contact.png" alt="Contact_Image">
+            </div>
+            <div class="Column_1 Column_tall"><!--This is the right column-->
+                <h1>Contact</h1>
+                <!--BLANK SPACE FOR FUTURE CODE-->
+                <form action="" method="POST"> <!--3rd party service to utilize contact info.-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your full name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please enter your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <!--End of Contact Section-->
+
+        <!--Footer Section-->
+        <footer>
+            <div><!--This is the left column-->
+                <p>
+                    <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a>
+                        <a href="" target="_blank"><img class="social_media" src="image/facebook.png" alt="Facebook Logo"></a>
+                        <a href="" target="_blank"><img class="social_media" src="image/instagram.png" alt="Instagram Logo"></a>
+                        <a href="" target="_blank"><img class="social_media" src="image/linkedin.png" alt="LinkedIn Logo"></a>
+                    </p> 
+                </p>
+            </div>
+        </footer>
+        <!--end of Footer Section-->
+	</body>
+</html>
