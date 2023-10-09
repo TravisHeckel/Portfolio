@@ -98,13 +98,10 @@ img:hover {
 	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
 }
 
-/*even out the height of the gamer and spartan image */
-#img_1 {
-    height: 400px;
-    box-shadow: 3px 5px 0px 0px rgba(0, 0, 0, .75);
+/*This sets the about statement and keeps it from overflowing*/
+#about {
+    overflow: auto;
 }
-
-
 /*Styling for footer element */
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
@@ -363,6 +360,7 @@ footer {
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
 }
+
 /***** End of Table Styling *****/
 
 /***** Contact Form Styling *****/
