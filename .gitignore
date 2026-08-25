@@ -1,0 +1,11 @@
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
